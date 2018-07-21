@@ -1,0 +1,13 @@
+.hero {
+  text-align: center;
+  .names {
+    width: 30%;
+    min-width: 290px;
+  }
+  .photo {
+    width: 80%;
+    border: 2px solid #262626;
+    padding: 15px;
+    min-width: 290px;
+  }
+}

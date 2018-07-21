@@ -1,0 +1,72 @@
+// import fonts
+
+@font-face {
+  font-family: 'Orator';
+  src: url('../fonts/OratorStd.otf');
+}
+
+@font-face {
+  font-family: 'Avenir Ultralight';
+  src: url('../fonts/avenir-ultralight.otf');
+}
+
+@font-face {
+  font-family: 'Avenir Light';
+  src: url('../fonts/avenir-light.otf');
+}
+
+@font-face {
+  font-family: 'Avenir Medium';
+  src: url('../fonts/avenir-medium.otf');
+}
+
+// general styles
+
+body {
+  text-align: center;
+  color: #303030;
+}
+
+h1, a {
+  font-family: 'Orator', sans-serif;
+  text-transform: uppercase;
+}
+
+p {
+  font-family: 'Avenir Ultralight', sans-serif;
+}
+
+.bold {
+  font-family: 'Avenir Medium', sans-serif;
+}
+
+a, a:visited {
+  text-decoration: none;
+  color: #303030;
+  transition: 0.2s;
+  &:hover {
+    color: #4a9970;
+    transition: 0.2s;
+  }
+}
+
+ul {
+  display: inline-flex;
+  li {
+    margin: 15px;
+    a {
+      font-size: 20px;
+      text-transform: uppercase;
+    }
+  }
+}
+
+.sec {
+  min-height: 100vh;
+}
+
+// import page sections
+
+@import 'nav';
+@import 'hero';
+@import 'sections';

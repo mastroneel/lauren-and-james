@@ -1,0 +1,62 @@
+@font-face {
+  font-family: 'Orator';
+  src: url("../fonts/OratorStd.otf"); }
+@font-face {
+  font-family: 'Avenir Ultralight';
+  src: url("../fonts/avenir-ultralight.otf"); }
+@font-face {
+  font-family: 'Avenir Light';
+  src: url("../fonts/avenir-light.otf"); }
+@font-face {
+  font-family: 'Avenir Medium';
+  src: url("../fonts/avenir-medium.otf"); }
+body {
+  text-align: center;
+  color: #303030; }
+
+h1, a {
+  font-family: 'Orator', sans-serif;
+  text-transform: uppercase; }
+
+p {
+  font-family: 'Avenir Ultralight', sans-serif; }
+
+.bold {
+  font-family: 'Avenir Medium', sans-serif; }
+
+a, a:visited {
+  text-decoration: none;
+  color: #303030;
+  transition: 0.2s; }
+  a:hover, a:visited:hover {
+    color: #4a9970;
+    transition: 0.2s; }
+
+ul {
+  display: inline-flex; }
+  ul li {
+    margin: 15px; }
+    ul li a {
+      font-size: 20px;
+      text-transform: uppercase; }
+
+.sec {
+  min-height: 100vh; }
+
+.desktop-nav {
+  text-align: center;
+  width: 100%;
+  margin: 0 auto; }
+
+.hero {
+  text-align: center; }
+  .hero .names {
+    width: 30%;
+    min-width: 290px; }
+  .hero .photo {
+    width: 80%;
+    border: 2px solid #262626;
+    padding: 15px;
+    min-width: 290px; }
+
+/*# sourceMappingURL=app.css.map */

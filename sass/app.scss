@@ -27,17 +27,36 @@ body {
   color: #303030;
 }
 
-h1, a {
+.page-container {
+  max-width: 100vw;
+  overflow: hidden;
+}
+
+h1, h2, h3, a {
   font-family: 'Orator', sans-serif;
   text-transform: uppercase;
 }
 
+h4, h5, h6, p, ul.left {
+  font-family: 'Avenir Light', sans-serif;
+  width: 70%;
+  min-width: 290px;
+  max-width: 1000px;
+  margin: 0 auto;
+  line-height: 2;
+  padding: 20px 0;
+}
+
 p {
-  font-family: 'Avenir Ultralight', sans-serif;
+  font-size: 1.1em;
 }
 
 .bold {
   font-family: 'Avenir Medium', sans-serif;
+}
+
+.left {
+  text-align: left;
 }
 
 a, a:visited {
@@ -50,19 +69,22 @@ a, a:visited {
   }
 }
 
-ul {
-  display: inline-flex;
-  li {
-    margin: 15px;
-    a {
-      font-size: 20px;
-      text-transform: uppercase;
-    }
-  }
+.sec {
+  min-height: 90vh;
 }
 
-.sec {
-  min-height: 100vh;
+.divider {
+  width: 90%;
+  padding: 40px 0;
+}
+
+@media (max-width: 500px) {
+  .divider {
+    width: 100%;
+  }
+  p {
+    width: 95%;
+  }
 }
 
 // import page sections

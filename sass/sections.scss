@@ -1,0 +1,22 @@
+.accommodation {
+  .cowshed {
+    width: 90%;
+    min-width: 290px;
+    max-width: 600px;
+    border: 2px solid #262626;
+    padding: 15px;
+  }
+  ul {
+    padding-left: 80px;
+    margin-top: -30px;
+  }
+}
+
+@media (max-width: 500px) {
+  .accommodation {
+    .cowshed {
+      width: 95%;
+      padding: 5px;
+    }
+  }
+}

@@ -70,12 +70,28 @@ a, a:visited {
 }
 
 .sec {
-  min-height: 90vh;
+  min-height: 70vh;
 }
 
 .divider {
   width: 90%;
   padding: 40px 0;
+}
+
+.gap {
+  line-height: 4;
+}
+
+.big {
+  font-size: 1.3em;
+}
+
+.big-margin {
+  margin-top: 40px;
+}
+
+.small-margin {
+  margin-top: -30px;
 }
 
 @media (max-width: 500px) {

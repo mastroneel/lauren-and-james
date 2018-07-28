@@ -1,6 +1,6 @@
 
 
-$('a[href*="#home"], a[href*="#intro"], a[href*="#accommodation"], a[href*="#registry"], a[href*="#rsvp"]')
+$('a[href*="#home"], a[href*="#intro"], a[href*="#itinerary"], a[href*="#accommodation"], a[href*="#payment"], a[href*="#registry"], a[href*="#rsvp"]')
   .click(function(event) {
     // On-page links
     if (

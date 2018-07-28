@@ -49,11 +49,23 @@ a, a:visited {
     transition: 0.2s; }
 
 .sec {
-  min-height: 90vh; }
+  min-height: 70vh; }
 
 .divider {
   width: 90%;
   padding: 40px 0; }
+
+.gap {
+  line-height: 4; }
+
+.big {
+  font-size: 1.3em; }
+
+.big-margin {
+  margin-top: 40px; }
+
+.small-margin {
+  margin-top: -30px; }
 
 @media (max-width: 500px) {
   .divider {
@@ -194,7 +206,7 @@ a, a:visited {
     min-width: 290px;
     margin-bottom: 20px; }
   .hero .photo {
-    width: 80%;
+    width: 50%;
     border: 2px solid #262626;
     padding: 15px;
     min-width: 290px; }
